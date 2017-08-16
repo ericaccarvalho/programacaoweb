@@ -1,0 +1,27 @@
+
+}
+.wraper{
+    width: 80%;
+    height: 100%
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    background-color: red;
+    border: 1px solid red;
+}
+footer{
+    border: 1px solid red;
+}
+header{
+    border: 1px solid red;
+}
+div{
+    border:1px solid blue;
+    padding: 100%
+    margin: 100%;
+}
