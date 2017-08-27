@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <script>
+        var frutas = [];
+        var continuar = "n";
+
+        do {
+            var fruta = prompt("Digite o nome de uma Fruta: ");
+            frutas.push(fruta);
+            continuar = prompt("Deseja continuar? Se sim (Sim, s, S) ou se não (n):").toLowerCase();
+        } while (continuar.includes("s"));
+        
+        for (var fruta of frutas){
+            console.log(fruta);
+        }
+        var i
+        for(i=0; i<frutas.length; i++){
+            console.log(frutas[i])
+        }
+        var i, tam;
+        for(i=0, tam=frutas.length; i<tam; i++){
+            console.log(frutas[i])
+        }
+    </script>
+</head>
+<body>
+    <header></header>
+    <nav></nav>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
